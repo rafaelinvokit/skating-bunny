@@ -25,7 +25,7 @@ class App {
   setUpScene() {
     // Scene
     this.scene = new THREE.Scene();
-    this.bgrColor = 0x332e2e;
+    this.bgrColor = 0xfab700;
     this.fog = new THREE.Fog(this.bgrColor, 13, 20);
     this.scene.fog = this.fog;
     this.camera = new THREE.PerspectiveCamera(
@@ -146,7 +146,7 @@ class App {
 
   createLine() {
     const material = new THREE.LineDashedMaterial({
-      color: 0x7beeff,
+      color: 0xfab700,
       linewidth: 1,
       scale: 1,
       dashSize: 0.2,
